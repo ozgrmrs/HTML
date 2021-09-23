@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>Welcome to Clarusway</h1> -->
+    <form action="result.html" method="get">
+        <div>
+            <label for="ad">isim:</label>
+            <input type="text" name="isim" id="ad" placeholder="please enter your name"required> 
+            <br>
+            <label for="soyad">soyad:</label>
+            <input type="text" name="soyisim" id="soyad" placeholder="please enter your surname">
+        </div>
+        <div>
+            <label for="şifre">parola:</label>
+            <input type="password" name="parola" id="şifre" placeholder="please enter your password">
+        </div>
+     
+            <div>
+                <label>Cinsiyet:</label> <br>
+                <label for="gender1">Erkek</label>
+                <input type="radio" name="Cinsiyet" id="gender1" value="Erkek" >
+                <label for="gender2">Kadın</label>
+                <input type="radio" name="Cinsiyet" id="gender2" value="Kadın" checked>
+               
+            </div>
+            <div>
+                <label> favori hayvanınızı seçiniz.</label>
+                <input type="checkbox" name="animal_1" id="panda" value="Pandas">
+                <label for="panda">Pandas</label>
+                <div>
+                    <label>Favori Hayvanınızı seçiniz.</label> <br>
+                    <input type="checkbox" name="animal_1" id="panda" value="Harvey">
+                    <label for="panda">Panda</label>
+                    <input type="checkbox" name="animal_2" id="balık" value="Balık">
+                    <label for="balık">Balık</label>
+                    <input type="checkbox" name="animal_3" id="unicorn" value="unicorn">
+                    <label for="unicorn">Unicorn</label>
+                </div>
+                <div>
+                    <label for="ara"><search:/label>
+                    <input type="search" name="arandı" id="ara" placeholder="en güzel arabalar">
+                </div>
+                <div>
+                   <label for="renk">color:</label>
+                   <input type="color" name="seçilen renk" id="renk">
+                </div>
+                <div>
+                    <label for="tarih">tarih girin:</label>
+                    <input type="date" name="girdiğiniz tarih" id="tarih" min="2020-01-01">
+                </div>
+                <div>
+                    <label for="mail">e-posta:</label>
+                    <input type="email" name="e-posta adresi" id="mail" placeholder="example:adddsa@gmail.com">
+                </div>
+                <div>
+                    <label for="dosya">dosya seç:</label>
+                    <input type="file" name="seçilen dosya" id="dosya" multiple>
+                </div>
+                <div>
+                    <label for="phone">Tel no: +90 </label>
+                    <input type="tel" name="phone number" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"> 
+                 <div>
+                 <div>
+                    <label for="şeker"> Hangi tatlıyı seversiniz?</label>
+                    <br>
+                    <select name="tatlı" id="şeker" multiple>
+                        <optgroup label="sütlü tatlılar">
+                        <option value="Sütlaç">Sütlaç</option>
+                        <option value="Keşkül">Keşkül</option>
+                        <option value="Aşure">Aşure</option></optgroup>
+                        <optgroup label="şekerli tatlılar"> 
+                        <option value="Supangle">Supangle</option>
+                        <option value="Pudding">Pudding</option>
+                        <option value="Magnolia">Magnolia</option> </optgroup>                          </option>
+                    </select>
+                 </div>  
+                 <div>
+                     <label for="yorum">lütfen yorum yazınız.</label>
+                     <br>
+                     <textarea name="" id="yorum" style="resize: none; width: 75%;" cols="30" rows="10"></textarea>
+                 </div>
+
+<br><br><br><br>
+<input type="reset" >
+<input type="submit" >
+    </form>
+</body>
+</html>
