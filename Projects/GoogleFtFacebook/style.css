@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    height: 600px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    border: 11px solid black;
+    border-image: linear-gradient(to right, #21BFE2,#9C55F3 ,#DB1DFA ) 30;
+}
+
+form{
+    /* border: 1px solid blue; */
+}
+
+.title{
+    text-align: center;
+    margin-top: 30px;
+    color: gray;
+}
+
+.button{
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.buton1{
+   
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+
+}
+
+.buton2{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 25px;
+    border: none;
+    box-shadow: 0px 0px 2px 2px grey;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1.5px;
+    background-color: white;
+    color: rgb(66, 66, 66);
+    cursor: pointer;
+
+
+
+}
+
+
+form{
+      width: 87%;
+      margin: auto;
+      height: 300px;
+      
+}
+
+#uname, #upassword{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border: 1px solid silver;
+    background-color: #F7F7F7;
+
+}
+
+#label1, #label2{
+    font-size: larger;
+}
+
+span{
+    text-decoration: underline;
+    color: silver;
+    
+}
+
+.sign{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.sign buton{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #333333;
+    border: none;
+    cursor: pointer;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 70px;
+    color: silver;
+}
+
+#signin{
+    color: silver;
+}
+
+
+
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+p{
+    font-size: 20px;
+}

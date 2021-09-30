@@ -1,0 +1,27 @@
+ol{
+    list-style-type:":)";
+}
+ul{
+    margin: 5px;
+    padding: 5px;
+
+}
+ul li{
+    border: 1px solid red;
+    color: royalblue;
+    border-radius: 25px;
+    background-color: lightgreen;
+    list-style-type: none;
+    border-left: 15px solid black;
+}
+li:hover {background-color: slateblue;
+}
+li:before{content: '\2764';}
+li:after{content: '\2764';}
+#por{
+
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
