@@ -1,0 +1,12 @@
+/* div p {
+    background-color: red;
+} */
+/* div > p {
+    background-color: magenta;
+} */
+/* div ~ p {
+    background-color: aqua;
+} */
+div + p {background-color: blueviolet;
+
+}
