@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+    }
+body{
+    width: 100%;
+/* --------HEADER--------- */
+}
+.header{
+    padding: 15px 15px 0 15px;
+    }
+ 
+.header__left{
+    float: left;
+    }
+    .header__right{
+        float:right;
+        }
+.clear{
+    clear: both;
+}
+
+ul{
+    list-style-type: none ;
+}
+ul li {
+    display: inline-block;
+}
+ul a{
+    color: black;
+    opacity: 0,8;
+    padding: 0,5rem;
+    
+    }
+a:hover{
+    text-decoration: underline;
+}    
+
+.header__right--appicon{
+    vertical-align: middle;
+    opacity: 0,8;    
+}
+
+.header__right--appicon:hover{
+    opacity: 1;
+}
+
+/* -------MAİN--------- */
+.main__logo{
+    width: 272px;
+    height: 92px;
+    margin: 200px auto 0;
+    display:block;
+}
+.main__search-bar{
+    width: 460;
+    height:38px;
+    border: 1px solid #D3D3D3;
+     border-radius: 25px;
+     margin: 28px auto;
+
+}
+.main__search-barÇhover{
+    box-shadow: rgb(211,211,211) 3px 3px 5px 0px;
+
+}
+.main__search-bar--magnifier{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.main__search-bar--input{
+    width: 380px;
+    height: 28px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.main__search-bar--microphone{
+    width: 15px;
+    height: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.main__butttons{
+    text-align: center;
+    }
+ .main__button--left,
+ .main__button--right{
+     height: 36px;
+     border: none;
+     background-color: #efefef;
+     border-radius: 4px;
+     padding: 0 16px;
+     margin: 11px 4px;
+}
+.main__button--left:hover,
+ .main__button--right:hover{
+     border: 1px solid #d3d3d3;
+     cursor: pointer;
+ }
+ .main__language{
+     text-align: center;
+    }
+.main__language a{
+    color: #000080;
+    }
+
+
+.main__search-bar--magnifier,
+.main__search-bar_microphone{
+    width: 20px;
+    height: 20px;
+}
